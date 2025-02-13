@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+  overflow: hidden;
+    display:flex;
+background-image:url("./images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg") ;
+background-size: cover;
+
+z-index: -10;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cont1 .box img{
+    width: 300px;
+    cursor: pointer;
+}
+.cont1 .img2{
+    width: 550px;
+    position:absolute;
+    left: 40%;
+    top:20%;
+    cursor: pointer;
+}
+.cont1{
+    margin: 0 auto;
+
+    width: 60%;
+    display: flex;
+    
+}
+h1{  font-family: "Love Ya Like A Sister", serif;
+    font-weight: 400;
+    font-style: normal;}
+.img2:hover{
+    width: 650px;
+
+    transition:0.9s cubic-bezier(0.300, 0.610, 0.355, 1) ;    
+}
+.cont1 .box img:hover{
+    width: 350px;
+    height: 310px;
+    transition: 1s cubic-bezier(0.300, 0.885, 0.32, 1.275);
+}
+.letter-open
+{
+    position: relative;
+}
+.ask{
+    font-size: 25px;
+    color: rgb(226, 0, 45);
+    rotate:-6deg ;
+    font-size: 2000;
+    
+    position: absolute;
+    z-index: 1;
+    left: 29%;
+    top: 250px;
+    font-family: "Cedarville Cursive", serif;
+    font-weight: 900;
+    font-style: normal;
+
+}
+p{
+    font-family: "Cedarville Cursive", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 27px;
+    color: rgb(226, 0, 45);
+    rotate:-6deg ;
+    font-size: 2000;
+    
+    position: absolute;
+    z-index: 1;
+    left: 32%;
+    top: 20%px;
+   
+}
+.cd{
+    position: absolute;
+    width: 200px;
+    left: 52%;
+    top: 20%;
+    
+}
+.animation{
+    animation: spin 3s linear infinite;
+    transform-origin: center;
+}
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.btn{
+    position: absolute;
+    left: 57.8%;
+    rotate: -6deg;
+    margin-top: 15px;
+     font-family: "Cedarville Cursive", serif;
+    font-weight: 700;
+    font-style: normal;
+    top: 56%;
+   
+    
+    
+} 
+
+.heart{
+    position:fixed;
+    color: crimson;
+    font-size: 1.5rem;
+    animation: fall 3s linear forwards;
+    z-index: -1;
+
+}
+.kiss{
+    position: fixed;
+    color: aqua;
+    font-size:1.5rem ;
+    animation: fall 4s linear forwards;
+    z-index: -2;
+}
+@keyframes fall {
+    to{
+        transform: translateY(105vh);
+    }
+    
+}
+body {
+    transition: background-image 2s ease-in-out, opacity 0.5s ease-in-out;
+    }
+
+
+.vintage-button {
+    background: #c39759;
+    color: #fff;
+    font-family: 'Georgia', serif;
+    font-size: 15px;
+    padding: 15px 25px;
+    border: 2px solid #7a5a3a;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px #7a5a3a;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-transform: uppercase;
+}
+.vintage-button:hover {
+    background: #af8552;
+    box-shadow: 4px 4px 0px #7a5a3a;
+}
+.vintage-button:active {
+    box-shadow: 1px 1px 0px #7a5a3a;
+    transform: translate(2px, 2px);
+}
+.btn2{
+    position: absolute;
+    rotate: -6deg;
+    background: #c39759;
+    top:59.5%;
+    left: 52.5%;
+    font-family: 'Georgia', serif;
+    font-size: 15px;
+    padding: 10px 18px;
+    border: 2px solid #7a5a3a;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px #7a5a3a;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-transform: uppercase;
+}
+.btn2:hover{
+    background-color: #af8552;
+    box-shadow: 4px 4px 0px #7a5a3a;  
+}
+.btn2:active{
+    box-shadow: 1px 1px 0px #7a5a3a;
+    transform: translate(2px, 2px);
+
+}
+.btn3{
+    position: absolute;
+    rotate: -6deg;
+    background: #c39759;
+    left: 64%;
+    top: 57%;
+    font-family: 'Georgia', serif;
+    font-size: 15px;
+    padding: 11px 18px;
+    border: 2px solid #7a5a3a;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px #7a5a3a;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-transform: uppercase;
+
+}
+.btn3:hover{
+    background-color: #af8552;
+    box-shadow: 4px 4px 0px #7a5a3a;
+}
+.btn3:active{
+    box-shadow: 1px 1px 0px #7a5a3a;
+    transform: translate(2px, 2px);
+}
+audio{
+position: absolute;
+top: 70%;
+}
+
+input[type="range"]{
+    position: absolute;
+    left: 52%;
+    top: 53.9%;
+    rotate: -6deg;
+    -webkit-appearance: none;
+    width: 250px;
+    height: 8px;
+    
+    /* Vintage Paper Look */
+    background: url('https://www.transparenttextures.com/patterns/aged-paper.png'), #f5e6ca;
+    background-size: cover;
+    
+    /* Border & Shadow */
+    border: 2px solid #8b5a2b;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+
+
+/* Custom Track Styling */
+input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8px;
+    background: #d7b899;
+    border-radius: 5px;
+    border: 1px solid #8b5a2b;
+}
+
+/* Slider Thumb (Handle) */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 24px;
+    height: 24px;
+    
+    /* Wooden-style Thumb */
+    background: #8b5a2b;
+    border: 8px solid #6c452f;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
+
+    /* Fix Thumb Alignment */
+    position: relative;
+    top: -8px;  /* Moves it to center */
+}
+
+/* Thumb Hover Effect */
+input[type="range"]::-webkit-slider-thumb:hover {
+    background: #a36b3f;
+    transform: scale(1.1);
+}
+h2{
+    top: 47.8%;
+    position: absolute;
+    left: 58.6%;
+    transform: rotate(-6deg);
+}
